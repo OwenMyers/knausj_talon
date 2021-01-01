@@ -1,8 +1,7 @@
 bash ack: "cd ../"
 bashed: "nvim "
-plop ack: "ls -la ../"
-plop here: "ls -la ./"
-plop there: "ls -al"
+bash seed: "cd "
+bash
 bash home:
 	insert("cd ~")
 bash repos: 
@@ -11,3 +10,7 @@ bash repos:
 bash documents:
 	insert("cd ~/Documents/")
 	key(enter)
+
+plop ack: "ls -la ../"
+plop here: "ls -la ./"
+plop there: "ls -al"
