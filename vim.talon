@@ -1,4 +1,5 @@
-app.name: iTerm2
+app.name: kitty
+-
 
 rip line: 
 	key(escape)
