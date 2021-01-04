@@ -1,10 +1,10 @@
 app.name: kitty
 -
 
-rip line: 
+rip line:
 	key(escape)
 	insert("dd")
-rip on: 
+rip on:
 	key(escape)
 	insert("D")
 match paren:
@@ -13,3 +13,4 @@ match paren:
 blork: "b"
 williams: "w"
 klack: key(escape)
+
