@@ -1,6 +1,20 @@
 app.name: kitty
 -
 
+squirt:
+	key(escape)
+	insert("p")
+sprout:
+	key(escape)
+	insert("P")
+
+yack line:
+	key(escape)
+	insert("yy")
+yack on:
+	key(escape)
+	insert("Y")
+
 rip line:
 	key(escape)
 	insert("dd")

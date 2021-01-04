@@ -30,3 +30,11 @@ plop here:
 	insert("ls -la ./")
 	key(enter)
 plop there: "ls -al"
+
+gecko push: "git push"
+gecko commit: "git commit -m "
+gecko status:
+	insert("git status")
+	key(enter)
+gecko add: "git add"
+gecko pull: "git pull"
