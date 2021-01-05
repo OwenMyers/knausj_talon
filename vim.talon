@@ -28,3 +28,13 @@ blork: "b"
 williams: "w"
 klack: key(escape)
 
+vertical split:
+	key(escape)
+	insert(":vsplit ")
+
+spell next:
+	key(escape)
+	insert("]s")
+spell correct:
+	key(escape)
+	insert("z=")
