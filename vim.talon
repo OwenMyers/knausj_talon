@@ -14,6 +14,9 @@ yack line:
 yack on:
 	key(escape)
 	insert("Y")
+yack word:
+	key(escape)
+	insert("yiw")
 
 rip line:
 	key(escape)
@@ -21,6 +24,9 @@ rip line:
 rip on:
 	key(escape)
 	insert("D")
+rip inner word:
+	key(escape)
+	insert("diw")
 match paren:
 	key(escape)
 	insert("%")
@@ -38,3 +44,9 @@ spell next:
 spell correct:
 	key(escape)
 	insert("z=")
+
+quick save:
+	key(escape)
+	insert(":w")
+	key(enter)
+

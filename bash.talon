@@ -1,7 +1,13 @@
 app.name: kitty
 -
 
-bash ack: "cd ../"
+file notes:
+	insert("nvim ~/tmp.md")
+	key(enter)
+
+bash ack: 
+	insert("cd ../")
+	key(enter)
 bashed: "nvim "
 bash seed: "cd "
 bash home:
